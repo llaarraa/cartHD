@@ -1,0 +1,41 @@
+Package: cartHD
+Type: Package
+Title: Fits and evaluates CART for binary outcomes for high-dimensional data
+Version: 0.0.1
+Date: 2012-04-2
+Author: Lara Lusa and Rok Blagus
+Maintainer: Lara Lusa <lara.lusa@mf.uni-lj.si>
+Description: The library contains functions that fit and evaluate the
+    predictive accuracy of Classification and Regression Trees for binary
+    outcomes. It is specifically designed for high-dimensional data, where the
+    number of variables is very large and it includes estimation methods that
+    are suitable for class-imbalanced data. The esimtation methods include
+    boosting, easy ensemble and multiple downsizing. The predictive accuracy of
+    the CART models can be evaluated with cross-validation or on new data.
+License: GPL-2
+Collate:
+    'cart.boosting.cv.R'
+    'cart.boosting.Icv.cv.R'
+    'cart.boosting.Icv.R'
+    'cart.boosting.R'
+    'cart.cv.R'
+    'cart.cv.withoutScore.R'
+    'cart.easyensemble.cv.R'
+    'cart.easyensemble.Icv.cv.R'
+    'cart.easyensemble.Icv.R'
+    'cart.easyensemble.Icv.w2.R'
+    'cart.easyensemble.R'
+    'cart.mds.cv.R'
+    'cart.mds.R'
+    'cart.R'
+    'cartHD-internal.R'
+    'draw.cart.r'
+    'my.predict.cart.R'
+    'my.predict.cart.with.score.R'
+    'plot.CART.R'
+    'predict.CART.R'
+    'print.cart.R'
+    'sotiriou03.data.GE.R'
+    'sotiriou03.descr.R'
+    'sotiriou03.geneID.R'
+    'stump.R'
